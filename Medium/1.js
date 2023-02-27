@@ -5,7 +5,7 @@
 */
 
 const logEachLetter = (str) => {
-    /* Тут код*/
+    str.split('').forEach(smb => console.log(smb))
 
 }
 
