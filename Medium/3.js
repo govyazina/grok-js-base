@@ -10,7 +10,17 @@
 */
 
 const sumOfIntegers = (start, end) => {
-    /* Тут код*/
+    if ( start > end) {
+        let a = end;
+        end = start;
+        start = a;
+    }
+    let sum = 0;
+
+    for (let i = start; i <= end; i++) {
+        sum += i;
+    }
+    return sum
 
 }
 
