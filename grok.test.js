@@ -92,5 +92,6 @@ describe('Hard', () => {
     expect(funcHard3('frontend_bootcamp')).toBe('frontendBootcamp')
     expect(funcHard3('hello_world')).toBe('helloWorld')
     expect(funcHard3('js_master')).toBe('jsMaster')
+    expect(funcHard3('i_am_js_master')).toBe('iAmJsMaster')
   });
 })
